@@ -1,0 +1,12 @@
+Exercises
+
+Create a file called basic_node_app_answers.txt and put your answers in the file.
+
+1. What is a Node module?
+	A: A node module is essential just a library that we can create, edit, and link to our application. Modules are the building blocks of a server side application. Modules must be exported from their location and imported ('required') to the main application where they will be used.
+
+2. What is the main difference between exports and module.exports?
+	A: Export is just a reference to module.exports. Exports can not assign values to module.exports, which is an object. 
+
+3. Why is using exports recommended?
+	A: Exports is a safer alternative as we can’t change the values or override the module.exports object. 
